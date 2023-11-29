@@ -18,7 +18,7 @@ namespace WebApiBD_Restaurante.Controllers
         }
 
         // GET: api/<UsuarioController>
-        [HttpGet]
+        [HttpGet("GetUsuarios")]
         public List<Usuario> Get()
         {
 
@@ -26,7 +26,7 @@ namespace WebApiBD_Restaurante.Controllers
         }
 
         // GET api/<UsuarioController>/5
-        [HttpGet("Get/{id}")]
+        [HttpGet("GetUsuarioId/{id}")]
         
         public Usuario Get(int id)
         {
@@ -37,21 +37,21 @@ namespace WebApiBD_Restaurante.Controllers
 
         // POST api/<UsuarioController>
         [HttpPost]
-        [Route("Post")]
+        [Route("PostGrabarUsuario")]
         public string Post([FromBody] Usuario obj)
         {
             return usuDao.GrabarUsuario(obj);
         }
 
         // PUT api/<UsuarioController>/5
-        [HttpPut("{id}")]
+        [HttpPut("PutActualizarUsuario/{id}")]
         public string Put(int id, [FromBody] Usuario obj)
         {
             return usuDao.ActualizarUsuario(obj);
         }
 
         // DELETE api/<UsuarioController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteEliminarUsuario/{id}")]
         public string Delete(int id)
         {
             return usuDao.EliminarUsuario(id);

@@ -727,19 +727,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jeferson\\.nuget\\packages\\": {}
+    "C:\\Users\\yisus\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jeferson\\source\\repos\\SlnWebApiBD_Restaurante\\WebApiBD_Restaurante\\WebApiBD_Restaurante.csproj",
+      "projectUniqueName": "C:\\Instituto\\5to_ciclo\\DAM_I\\Api_Restaurant\\WebApiBD_Restaurante\\WebApiBD_Restaurante.csproj",
       "projectName": "WebApiBD_Restaurante",
-      "projectPath": "C:\\Users\\Jeferson\\source\\repos\\SlnWebApiBD_Restaurante\\WebApiBD_Restaurante\\WebApiBD_Restaurante.csproj",
-      "packagesPath": "C:\\Users\\Jeferson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jeferson\\source\\repos\\SlnWebApiBD_Restaurante\\WebApiBD_Restaurante\\obj\\",
+      "projectPath": "C:\\Instituto\\5to_ciclo\\DAM_I\\Api_Restaurant\\WebApiBD_Restaurante\\WebApiBD_Restaurante.csproj",
+      "packagesPath": "C:\\Users\\yisus\\.nuget\\packages\\",
+      "outputPath": "C:\\Instituto\\5to_ciclo\\DAM_I\\Api_Restaurant\\WebApiBD_Restaurante\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jeferson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\yisus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -747,7 +747,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Jeferson\\.nuget\\packages": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -798,7 +797,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
