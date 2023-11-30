@@ -3,25 +3,25 @@ using WebApiBD_Restaurante.Entidades;
 
 namespace WebApiBD_Restaurante.DAO
 {
-    public class PlatilloDAO
+    public class BebidaDAO
     {
         private readonly string conexion;
 
-        public PlatilloDAO(IConfiguration config)
+        public BebidaDAO(IConfiguration config)
         {
             conexion = config.GetConnectionString("cn1");
         }
 
-        /*Listado de Platillos*/
-        public List<Platillo> ListarPlatillos()
+        /*Listado de Bebidas*/
+        public List<Bebida> ListarBebidas()
         {
-            var lista = new List<Platillo>();
+            var lista = new List<Bebida>();
             //
-            SqlDataReader dr = SqlHelper.ExecuteReader(conexion, "SP_ListarPlatillos");
+            SqlDataReader dr = SqlHelper.ExecuteReader(conexion, "SP_ListarBebidas");
             //
             while (dr.Read())
             {
-                lista.Add(new Platillo()
+                lista.Add(new Bebida()
                 {
                     id = dr.GetInt32(0),
                     nombre = dr.GetString(1),
@@ -33,17 +33,17 @@ namespace WebApiBD_Restaurante.DAO
             return lista;
         }
 
-        /*Buscar Platillos por Iniciales*/
-        public List<Platillo> BuscarPlatilloPorIniciales(string nombre)
+        /*Buscar Bebidas por Iniciales*/
+        public List<Bebida> BuscarBebidaPorIniciales(string nombre)
         {
-            var lista = new List<Platillo>();
+            var lista = new List<Bebida>();
             //
             SqlDataReader dr =
-                SqlHelper.ExecuteReader(conexion, "SP_BuscarPlatilloPorIniciales", string.IsNullOrEmpty(nombre) ? null : nombre);
+                SqlHelper.ExecuteReader(conexion, "SP_BuscarBebidaPorIniciales", nombre);
             //
             while (dr.Read())
             {
-                lista.Add(new Platillo()
+                lista.Add(new Bebida()
                 {
                     id = dr.GetInt32(0),
                     nombre = dr.GetString(1),
@@ -54,8 +54,5 @@ namespace WebApiBD_Restaurante.DAO
             dr.Close();
             return lista;
         }
-
-
-
     }
 }

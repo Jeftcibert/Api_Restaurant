@@ -28,7 +28,7 @@ namespace WebApiBD_Restaurante.Controllers
         [HttpGet("GetPlatilloNombre/{nombre}")]
         public List<Platillo> Get(string nombre)
         {
-            var platillos = plaDao.BuscarPlatillosPorIniciales(nombre);
+            var platillos = plaDao.BuscarPlatilloPorIniciales(nombre);
 
             return platillos;
         }

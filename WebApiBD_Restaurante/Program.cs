@@ -11,6 +11,8 @@ builder.Services.AddScoped<ClienteDAO>();
 //
 builder.Services.AddScoped<PlatilloDAO>();
 //
+builder.Services.AddScoped<BebidaDAO>();
+//
 builder.Services.AddScoped<MesasDAO>();
 //
 builder.Services.AddScoped<LoginDAO>();
