@@ -9,7 +9,7 @@ builder.Services.AddScoped<UsuarioDAO>();
 //
 builder.Services.AddScoped<ClienteDAO>();
 //
-builder.Services.AddScoped<PlatillosDAO>();
+builder.Services.AddScoped<PlatilloDAO>();
 //
 builder.Services.AddScoped<MesasDAO>();
 //
