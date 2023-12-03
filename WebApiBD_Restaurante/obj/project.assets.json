@@ -732,11 +732,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Instituto\\5to_ciclo\\DAM_I\\Api_Restaurant\\WebApiBD_Restaurante\\WebApiBD_Restaurante.csproj",
+      "projectUniqueName": "C:\\Instituto\\5to_ciclo\\DSW_I\\Api_Restaurant\\WebApiBD_Restaurante\\WebApiBD_Restaurante.csproj",
       "projectName": "WebApiBD_Restaurante",
-      "projectPath": "C:\\Instituto\\5to_ciclo\\DAM_I\\Api_Restaurant\\WebApiBD_Restaurante\\WebApiBD_Restaurante.csproj",
+      "projectPath": "C:\\Instituto\\5to_ciclo\\DSW_I\\Api_Restaurant\\WebApiBD_Restaurante\\WebApiBD_Restaurante.csproj",
       "packagesPath": "C:\\Users\\yisus\\.nuget\\packages\\",
-      "outputPath": "C:\\Instituto\\5to_ciclo\\DAM_I\\Api_Restaurant\\WebApiBD_Restaurante\\obj\\",
+      "outputPath": "C:\\Instituto\\5to_ciclo\\DSW_I\\Api_Restaurant\\WebApiBD_Restaurante\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yisus\\AppData\\Roaming\\NuGet\\NuGet.Config",
